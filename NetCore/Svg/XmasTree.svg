@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<svg height="60px" version="1.1" viewBox="0 0 36 60" width="36px" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title/>
+	<desc/>
+	<defs/>
+	<g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+		<g id="016---Xmas-Tree" transform="translate(1.000000, 1.000000)">
+			<g id="Colour">
+				<polygon fill="#FF6E2C" id="Shape" points="17 0 18.834 3.663 22.934 4.251 19.967 7.102 20.667 11.129 17 9.228 13.333 11.129 14.033 7.102 11.066 4.251 15.166 3.663"/>
+				<rect fill="#8B685A" fill-rule="nonzero" height="7" id="Rectangle-path" width="4" x="15" y="44"/>
+				<polygon fill="#E15919" id="Shape" points="22 50 21 58 13 58 12 50"/>
+				<polygon fill="#FF6E2C" id="Shape" points="19 50 18 58 13 58 12 50"/>
+				<polygon fill="#66993E" id="Shape" points="34 45 0 45 10 32 2 32 12 19 7 19 17 9 27 19 22 19 32 32 24 32"/>
+				<polygon fill="#9ACA5C" id="Shape" points="0 45 10 32 2 32 12 19 7 19 15.5 10.5 24 19 19 19 29 32 21 32 31 45"/>
+				<circle cx="13" cy="28" fill="#FFFFFF" fill-rule="nonzero" id="Oval" r="2"/>
+				<circle cx="20" cy="26" fill="#FFEB49" fill-rule="nonzero" id="Oval" r="2"/>
+				<circle cx="11" cy="40" fill="#EF3A76" fill-rule="nonzero" id="Oval" r="2"/>
+				<circle cx="22" cy="38" fill="#00A499" fill-rule="nonzero" id="Oval" r="2"/>
+				<circle cx="17" cy="17" fill="#00C6DB" fill-rule="nonzero" id="Oval" r="2"/>
+			</g>
+			<g id="Outline" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+				<polyline id="Shape" points="17.48 9.48 20.67 11.13 19.97 7.1 22.93 4.25 18.83 3.66 17 0 15.17 3.66 11.07 4.25 14.03 7.1 13.33 11.13 16.52 9.48" stroke-width="2"/>
+				<rect height="5" id="Rectangle-path" stroke-width="2" width="4" x="15" y="45"/>
+				<polygon id="Shape" points="21 58 13 58 12 50 22 50" stroke-width="2"/>
+				<polygon id="Shape" points="24 32 32 32 22 19 27 19 17 9 7 19 12 19 2 32 10 32 0 45 17 45 34 45" stroke-width="2"/>
+				<circle cx="13" cy="28" id="Oval" r="2"/>
+				<circle cx="20" cy="26" id="Oval" r="2"/>
+				<circle cx="11" cy="40" id="Oval" r="2"/>
+				<circle cx="22" cy="38" id="Oval" r="2"/>
+				<circle cx="17" cy="17" id="Oval" r="2"/>
+				<path d="M3,42 C3,42 7,44 9,41" id="Shape"/>
+				<path d="M13,40 C13,40 19,42 20,38" id="Shape"/>
+				<path d="M24,38 C24,38 26,39 27,36" id="Shape"/>
+				<path d="M5,28 C6.83440103,29.150996 9.16559897,29.150996 11,28" id="Shape"/>
+				<path d="M11,15 C11,15 13,17 15,17" id="Shape"/>
+				<path d="M19,17 C19,17 22,17 23,15" id="Shape"/>
+				<path d="M18.24,26.95 C17.2893019,27.6161288 16.1607007,27.9818791 15,28" id="Shape"/>
+				<path d="M27.55,26.21 C23.85,27.85 22,26.01 22,26.01 L22,26" id="Shape"/>
+			</g>
+		</g>
+	</g>
+</svg>

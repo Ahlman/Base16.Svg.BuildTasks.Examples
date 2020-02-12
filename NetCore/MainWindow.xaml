@@ -1,0 +1,69 @@
+﻿<Window
+    x:Class="NetCore.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Base16.Svg.BuildTasks.Examples.Controls"
+    xmlns:Svg="clr-namespace:NetCore.Svg"
+    mc:Ignorable="d"
+    FontSize="16"
+    WindowStartupLocation="CenterScreen"
+    Title="Base16.Svg.BuildTasks.Examples" Height="350" Width="550">
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" IsMainMenu="True">
+            <MenuItem Header="File">
+                <MenuItem Header="New" InputGestureText="Ctrl+N">
+                    <MenuItem.Icon>
+                        <Rectangle>
+                            <Rectangle.Fill>
+                                <VisualBrush Stretch="Uniform">
+                                    <VisualBrush.Visual>
+                                        <Svg:FileNew />
+                                    </VisualBrush.Visual>
+                                </VisualBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <MenuItem Header="Open" InputGestureText="Ctrl+O">
+                    <MenuItem.Icon>
+                        <Rectangle>
+                            <Rectangle.Fill>
+                                <VisualBrush Stretch="Uniform">
+                                    <VisualBrush.Visual>
+                                        <Svg:FileOpen />
+                                    </VisualBrush.Visual>
+                                </VisualBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <Border DockPanel.Dock="Top" Padding="5" BorderBrush="Gray" BorderThickness="0 1 0 1" Background="#f5f5f5">
+            <DockPanel>
+                <Controls:SvgPresenter SvgVisualType="Svg:Info" DockPanel.Dock="Left" Height="64" Width="64" Margin="0 0 5 0" Style="{x:Null}" />
+
+                <TextBlock DockPanel.Dock="Top" Text="All images shown in this application are DrawingVisuals generated at compile time from SVG-files using Base16.Svg.BuildTasks. Note the 'BuildAction' set on the SVG-files in Visual Studio." TextWrapping="WrapWithOverflow" VerticalAlignment="Center" />
+            </DockPanel>
+        </Border>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible">
+            <UniformGrid Margin="5" Columns="3">
+                <Controls:SvgPresenter SvgVisualType="Svg:Skane" />
+                <Controls:SvgPresenter SvgVisualType="Svg:CoatOfArmsOfSweden" />
+                <Controls:SvgPresenter SvgVisualType="Svg:Info" />
+                <Controls:SvgPresenter SvgVisualType="Svg:Warning" />
+                <Controls:SvgPresenter SvgVisualType="Svg:PoliceCar" />
+                <Controls:SvgPresenter SvgVisualType="Svg:XmasTree" />
+                <Controls:SvgPresenter SvgVisualType="Svg:UpdateAvailable" />
+                <Controls:SvgPresenter SvgVisualType="Svg:WorldMap" />
+            </UniformGrid>
+        </ScrollViewer>
+    </DockPanel>
+
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore", "NetCore\NetCore.csproj", "{D0B94664-8495-454F-ABD5-7946DB9441BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFramework", "NetFramework\NetFramework.csproj", "{D38C33E6-8847-4812-8260-38DBDBD030FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0B94664-8495-454F-ABD5-7946DB9441BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B94664-8495-454F-ABD5-7946DB9441BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B94664-8495-454F-ABD5-7946DB9441BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B94664-8495-454F-ABD5-7946DB9441BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38C33E6-8847-4812-8260-38DBDBD030FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38C33E6-8847-4812-8260-38DBDBD030FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38C33E6-8847-4812-8260-38DBDBD030FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38C33E6-8847-4812-8260-38DBDBD030FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CECB3B0-FB9C-40F5-A7E9-8A062C2AF51F}
+	EndGlobalSection
+EndGlobal
